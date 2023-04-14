@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+.f-16 {
+  font-size: 16px;
+}
+nav.my-nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 22;
+}
+nav.my-nav img {
+  width: 50px;
+}
+nav.my-nav h2 {
+  margin-bottom: 0px;
+  margin-right: auto;
+  font-weight: 600;
+  color: #61dafb;
+}
+.nav--right {
+  display: flex;
+  align-items: center;
+}
+.nav--right span {
+  font-weight: 600;
+}
+.nav--right .check {
+  width: 40px;
+  background: black;
+  height: 20px;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+
+.nav--right .check input {
+  appearance: none;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  transform: translate(1px, 1px);
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+}
+/* ====================================== main */
+main {
+  padding: 60px 30px;
+  position: relative;
+  overflow: hidden;
+}
+main h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+main ul li {
+  margin: 20px 0px;
+}
+main ul li::marker {
+  color: #61dafb;
+  font-size: 25px;
+}
+main img {
+  position: absolute;
+  width: 400px;
+  top: 25%;
+  right: -200px;
+  z-index: -1;
+}
